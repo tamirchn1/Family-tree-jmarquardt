@@ -5,12 +5,8 @@ function App() {
   return (
     <div className="app">
       <Header />
-
       <div id="cards">
-        <Person />
-        <Person />
         <Form />
-        <Input />
       </div>
     </div>
   );
