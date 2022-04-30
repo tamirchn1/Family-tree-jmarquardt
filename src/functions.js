@@ -2,11 +2,11 @@ import $ from "jquery";
 
 function cardDelete() {
   $(".delete").on("click", function () {
-    $(this).parent().hide();
+    $(this).parent().fadeOut(300);
   });
 }
 function addChild() {
-  document.getElementById("cards").innerHTML += "<Person />";
+  alert("addChild");
 }
 
 function addParent() {
