@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { cardDelete, addChild, addParent } from "../functions";
-
+import { cardDelete } from "../functions";
 const Input = () => {
   return (
     <div className="box w-lg-25 rounded">
