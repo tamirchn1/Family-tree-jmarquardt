@@ -1,15 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
 
 const Input = () => {
-  return (
-    <input
-      placeholder="
-Enter Full Name Here...
-"
-    />
-  );
+  return <input placeholder="Your input here" />;
 };
 
 const Form = () => {
@@ -27,4 +19,4 @@ const Form = () => {
   );
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export { Form, Input };

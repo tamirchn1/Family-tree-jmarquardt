@@ -19,6 +19,7 @@ h1 {
 h2{
   animation-duration: 2s;
   animation-name: fade;
+color: white;
 
 }
 @keyframes fade {
@@ -94,3 +95,4 @@ textarea {
 input::placeholder{
   color:black;
 }
+
