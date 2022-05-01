@@ -17,6 +17,7 @@ h1 {
 }
 
 
+
 h2{
   animation-duration: 2s;
   animation-name: fade;
@@ -107,16 +108,21 @@ font-weight: 600;
 font-family: "roboto";
 }
 
+.birthday{
+
+}
+
 .add-person{
   margin: 0.31%;
 }
 
 
-.details{
+.details, label, input{
   background-color: rgb(188, 88, 88);
   border: 0px;
   font-family: "Roboto";
   font-weight: 600;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
