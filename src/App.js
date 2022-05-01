@@ -1,13 +1,10 @@
-import Person from "./components/Person";
 import Header from "./components/Header";
-import { Form, Input } from "./components/Form";
+import { Box, Input } from "./components/Box";
 function App() {
   return (
     <div className="app">
       <Header />
-      <div id="cards">
-        <Form />
-      </div>
+      <Box />
     </div>
   );
 }

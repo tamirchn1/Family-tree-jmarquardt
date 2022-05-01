@@ -6,6 +6,7 @@ a{
   text-decoration: none;
   color: white;
   cursor: pointer;
+
 }
 h1 {
   text-align: center;
@@ -43,8 +44,7 @@ color: white;
   padding: 1%;
   display: flex;
   justify-content: space-evenly;
-
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(239, 149, 149);
     -webkit-animation: fadein 2s;
     /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s;
@@ -57,7 +57,7 @@ color: white;
 }
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to   { opacity: 1;  }
 }
 
 /* Firefox < 16 */
@@ -79,7 +79,10 @@ color: white;
 }
 
 .delete {
-  float: right;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(188, 88, 88);
+  border:0px
 }
 
 button,
@@ -90,13 +93,30 @@ input {
 
 input[type="text"],
 textarea {
-  background-color: rgb(168, 168, 168);
+  background-color: rgb(215, 99, 99);
   border: 0;
-
+  text-align: center;
+  font-size: 1.2rem;
+  color:white;
+  font-weight: 600;
 
 }
 input::placeholder{
   color:black;
+font-weight: 600;
+font-family: "roboto";
+}
+
+.add-person{
+  margin: 0.31%;
+}
+
+
+.details{
+  background-color: rgb(188, 88, 88);
+  border: 0px;
+  font-family: "Roboto";
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,11 +133,6 @@ input::placeholder{
   }
   
 
-  input::placeholder {
-    font-size: 1rem;
-    font-family: "roboto";
-    
-  }
 }
 
 
