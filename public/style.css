@@ -44,6 +44,7 @@ color: white;
   margin: 2% auto;
   padding: 1%;
   display: flex;
+  border: 0px;
   justify-content: space-evenly;
   background-color: rgb(239, 149, 149);
     -webkit-animation: fadein 2s;
@@ -83,7 +84,7 @@ color: white;
   color: white;
   font-weight: 600;
   background-color: rgb(188, 88, 88);
-  border:0px
+  border:0px;
 }
 
 button,
@@ -92,8 +93,7 @@ input {
 }
 
 
-input[type="text"],
-textarea {
+input[type="text"] {
   background-color: rgb(215, 99, 99);
   border: 0;
   text-align: center;
@@ -103,41 +103,51 @@ textarea {
 
 }
 input::placeholder{
-  color:black;
+color:black;
 font-weight: 600;
 font-family: "roboto";
 }
 
-.birthday{
-
-}
 
 .add-person{
-  margin: 0.31%;
+  margin: 0.4%;
 }
 
 
-.details, label, input{
+.details, input{
   background-color: rgb(188, 88, 88);
   border: 0px;
   font-family: "Roboto";
   font-weight: 600;
   text-align: center;
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
 }
+
+label {
+  font-weight: 600;
+}
+
+
 
 @media only screen and (max-width: 600px) {
  
+  .box{
+    width:17rem
+  }
   h1{
     font-size: 1.3rem;
   }
   .logo{
     width: 15%;
   }
-
+input[type="text"]{
+  font-size: 1rem;
+}
   h2{
     font-size: 1rem
   }
-  
 
 }
 

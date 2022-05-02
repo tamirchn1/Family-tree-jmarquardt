@@ -27,8 +27,8 @@ const Input = () => {
           />
         </a>
         <div class="collapse btn" id="details">
-          <div class="card">
-            <label for="birthday">Born:</label>
+          <label for="birthday">Born:</label>
+          <div class="btn">
             <input
               type="date"
               id="birthday"

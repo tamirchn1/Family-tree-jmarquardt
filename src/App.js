@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import { Box, Input } from "./components/Box";
+import { Box } from "./components/Box";
 function App() {
   return (
     <div className="app">
