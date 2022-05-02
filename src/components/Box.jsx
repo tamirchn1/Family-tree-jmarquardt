@@ -26,16 +26,9 @@ const Input = () => {
             placeholder="Enter full name here..."
           />
         </a>
-        <div class="collapse btn" id="details">
-          <label for="birthday">Born:</label>
-          <div class="btn">
-            <input
-              type="date"
-              id="birthday"
-              name="birthday"
-              className="birthday"
-            />
-          </div>
+        <div class="collapse btn d-flex justify-content-between" id="details">
+          <button className="btn btn-primary">Add Child</button>
+          <button className="btn btn-primary">Add Parent</button>
         </div>
       </div>
       <br />
@@ -54,11 +47,9 @@ const Box = () => {
     <div className="text-center mt-5">
       <a>
         <button className="btn btn-primary add-person" onClick={onAddBtnClick}>
-          Add Child
+          Add Person
         </button>
-        <button className="btn btn-primary add-person" onClick={onAddBtnClick}>
-          Add Parent
-        </button>
+
         {inputList}
       </a>
     </div>
